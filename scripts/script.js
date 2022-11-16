@@ -39,10 +39,10 @@ function toSquare (){
 function green(list){
     const arrLi = document.querySelectorAll(".shopping li");
     arrLi.forEach((item) => {
-        if (item.textContent.includes("green", "sprite")){
+        if (item.textContent.includes("green" || "sprite")){
             item.style.color= "green";
         }
-    })
+    });
 }
 
 shop(items);
