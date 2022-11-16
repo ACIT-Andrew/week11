@@ -39,7 +39,7 @@ function toSquare (){
 function green(list){
     const arrLi = document.querySelectorAll(".shopping li");
     arrLi.forEach((item) => {
-        if (item.textContent.includes("green" || "sprite")){
+        if (item.textContent.includes("green")){
             item.style.color= "green";
         }
     });
